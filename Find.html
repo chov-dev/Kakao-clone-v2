@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Find | Kakao Clone</title>
+    <link href="css/styles.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/2a10329719.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <div class="status-bar__clock">14:02</div>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-stopwatch"></i>
+        <i class="fas fa-volume-mute"></i>
+        <i class="fas fa-wifi"></i>
+        <i class="fas fa-ban"></i>
+        <char class="status-bar__battery-level">72%</char>
+        <i class="fas fa-battery-three-quarters"></i>
+      </div>
+    </div>
+    <header class="header">
+      <div class="header__column">
+        <h1 class="header__title">Find</h1>
+      </div>
+      <div class="header__column">
+        <span class="header__icon"><i class="fas fa-search"></i></span>
+        <a href="settings.html" class="header__icon"
+          ><i class="fas fa-cog"></i
+        ></a>
+      </div>
+    </header>
+    <main class="find">
+      <header class="find__header">
+        <ul class="find__header-list">
+          <li class="find__header-btn header-btn">
+            <span class="header-button__icon"
+              ><i class="fas fa-qrcode fa-2x"></i
+            ></span>
+            <span class="header__btn-title">QR Code</span>
+          </li>
+          <li class="find__header-btn header-btn">
+            <span class="header-button__icon"
+              ><i class="far fa-address-book fa-2x"></i
+            ></span>
+            <span class="header__btn-title">Add by Contacts</span>
+          </li>
+          <li class="find__header-btn header-btn">
+            <span class="header-button__icon"
+              ><i class="far fa-id-card fa-2x"></i
+            ></span>
+            <span class="header__btn-title">Add by ID</span>
+          </li>
+          <li class="find__header-btn header-btn">
+            <span class="header-button__icon"
+              ><i class="far fa-envelope fa-2x"></i
+            ></span>
+            <span class="header__btn-title">Invite</span>
+          </li>
+        </ul>
+      </header>
+      <div class="find__recommended">
+        <h5 class="recommended__title">Recommended Friends</h5>
+        <ul class="recommended__list">
+          <li class="friends__friend friend friend">
+            <div class="friend__column">
+              <img
+                src="images/nicolas_teacher_avatar.jpg"
+                class="m-avatar friend__avatar"
+              />
+              <div class="friend__content">
+                <span class="friend_name">nicolas_teacher</span>
+              </div>
+              <div class="friend__add-btn">
+                <i class="fas fa-user-plus"></i>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__list-item">
+          <a href="Friends.html" class="nav__list-link"
+            ><i class="far fa-user"></i
+          ></a>
+        </li>
+        <li class="nav__list-item">
+          <a href="index.html" class="nav__list-link"
+            ><i class="far fa-comments"></i
+          ></a>
+        </li>
+        <li class="nav__list-item">
+          <a href="Find.html" class="nav__list-link"
+            ><i class="fas fa-search"></i
+          ></a>
+        </li>
+        <li class="nav__list-item">
+          <a href="more.html" class="nav__list-link"
+            ><i class="fas fa-ellipsis-h"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <div class="bigscreen">
+      <span class="bigscreen__icon">
+        <i class="fas fa-exclamation-circle fa-2x"></i
+      ></span>
+      <span class="bigscreen__text">Please make your screen smaller!</span>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,94 @@
+.friend {
+  background-color: gainsboro;
+  border-radius: 20px;
+}
+.friend__chat-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.friend__avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.g-avatar {
+  width: 70px;
+  height: 70px;
+  margin-right: 15px;
+}
+.friend__avatar.m-avatar {
+  width: 60px;
+  height: 60px;
+}
+.friend .friend__column {
+  display: flex;
+  align-items: center;
+}
+.friend .friend__avatar {
+  margin-right: 15px;
+}
+.friend__content .friend__name {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+.friend__content .friend__bottom-text,
+.friend__content .friend__status,
+.friend .chat__timestamp {
+  color: rgb(165, 165, 165);
+  margin-right: 10px;
+}
+.friend__column .friend__add-btn {
+  color: rgb(8, 8, 8);
+  margin-right: 10px;
+}
+.friend__content .friend__status {
+  font-size: 12px;
+}
+.friend__content .friend__bottom-text {
+  font-size: 14px;
+}
+.more__friend.friend.friend {
+  display: flex;
+  justify-content: space-between;
+}
+.far.fa-comment-alt {
+  font-size: 30px;
+  margin-right: 15px;
+}
+.friends .friends__plus {
+  margin: 20px 0px;
+  padding: 20px 0px;
+  border-top: rgb(230, 230, 230) solid 1px;
+  border-bottom: rgb(230, 230, 230) solid 1px;
+}
+.friends__plus .friends__plus-title,
+.friends__list .friends__title {
+  font-size: 10 px;
+  font-weight: 700;
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+.friend .friend__now-listening {
+  margin-right: 10px;
+  padding: 5px 10px;
+  border: mediumaquamarine solid 2px;
+  border-radius: 15px;
+  font-size: 14px;
+  color: rgb(46, 46, 46);
+}
+.friend__now-listening span,
+.friend__now-listening .fas.fa-play {
+  color: rgb(114, 114, 114);
+}
+.friend__add-btn {
+  color: rgb(12, 12, 12);
+  display: flex;
+  background-color: rgb(211, 211, 211);
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin-left: 10px;
+}
